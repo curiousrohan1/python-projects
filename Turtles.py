@@ -3,7 +3,7 @@ import turtle
 n = 1
 # Making sure that the user inputs a valid value in the given range before proceeding.
 while n > 90 or n < 3:
-    n = int(input("Please input a number between 3 and 90. "))
+    n = int(input("Please input a number between 3 and 90: "))
 
 spiral = turtle.Turtle()
 spiral.speed(0)
